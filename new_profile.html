@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>ImmiTools</title>
+    <link rel="icon" type="image/x-icon" href="https://icons.iconarchive.com/icons/arrioch/whack/256/Whack-Google-Earth-icon.png">
+  </head>
+
+  <body>
+    <!-- BANNER -->
+    <header>
+        <div class="banner">
+            Immigration Tools & Visa Management
+        </div>
+    </header>
+
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="barra-navegacion">      
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="new_profile.html">New Profile</a></li>
+        <li><a href="cost_estimate.html">Cost Estimation</a></li>
+        <li><a href ="https://www.uscis.gov/working-in-the-united-states" target=”_blank”>USCIS Official Site</a></li>
+      </ul>
+    </nav>
+    
+    <!-- CREATE PROFILE -->
+    <form id="formProfile" name="formProfile">
+        <div class="save-button">
+            <button type="reset" class="btn btn-danger">Reset/Delete All</button>
+            <button type="submit" id="submit" class="btn btn-success" value="register">Save & Submit</button>
+        </div>
+        <div class="profile-info" name="profileInfo">
+            <div class="div1" name="div1" >                
+                <h4>Employee Information</h4><br>            
+                <label for="fullName" class="form-label">Full Name</label>
+                <input required type="text" class="form-control" id="fullName" name="fullName" placeholder="Full name is required">
+            
+                <label for="idNumber" class="form-label">ID Number</label>
+                <input required type="text" class="form-control" id="idNumber" name="idNumber" placeholder="Enter ID Number">
+                
+                <label for="email" class="form-label">Email Address</label>
+                <input required type="email" class="form-control" id="email" name="email" placeholder="name@domain.com">
+                
+                <label for="jobPosition" class="form-label">Job Position</label>
+                <input required type="text" class="form-control" id="jobPosition" name="jobPosition" placeholder="Job Position / Career Level">
+            </div>                    
+
+            <div class="div2">
+            <h4>Visa Type & Supporting Documents</h4><br>
+
+                <!-- SELECT VISA TYPE -->
+                <label for="input-group mb-2" class="form-label">Please select your Visa Type</label>            
+                <select id="visaType" class="form-select" aria-label="Default select">
+                  <option selected="">----- Visa Type Selector -----</option>
+                  <option value="H-1B">H-1B</option>
+                  <option value="L1">L1</option>
+                  <option value="TN">TN</option>
+                  <option value="EAD">EAD</option>
+                </select>
+
+                <div>
+                    <label for="formFile" class="form-label">File Uploader (Supporting Documents)</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+                <p class="exp-date">Visa Expiration Date: <input id="expDate" type="date"></p>
+    
+                <!-- I-140 STATUS -->
+                <h4 style="color: darkblue;">I-140 Status</h4>
+                <div class="check_i140">
+                    <select id="i140" class="form-select" aria-label="Default select">
+                      <option selected="">----- I-140 Status Selector -----</option>
+                      <option value="Approved (Sponsored)">Approved (Sponsored by the Company)</option>
+                      <option value="Approved (Previous Employer)">Approved (Previous Employer)</option>
+                      <option value="No I-140">N/A (Employee does NOT hold an approved I-140)</option>                      
+                    </select><br>
+
+                    <p style="font-weight: bold">MAX OUT DATE: <input type="text"> </p>
+                </div>
+
+                <!-- CASE NOTES -->
+                <div>
+                <h4 style="color: darkblue;">Case Notes</h4>
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="caseNotes" style="height: 100px"></textarea>
+                    <label for="floatingTextarea">Leave your comments here:</label>
+                  </div>
+                </div><br>                          
+            </div>
+        </div>
+    </form>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>Immigration & Visa Management Tools | 2022 <br>
+         Version: 1.2 (Bootstrap Actualizado)
+      </p>
+  </footer>
+
+<!-- JS - Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+crossorigin="anonymous"></script>
+<script src="new_profile.js"></script>
+</body>
+</html>

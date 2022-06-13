@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>ImmiTools</title>
+    <link rel="icon" type="image/x-icon" href="https://icons.iconarchive.com/icons/arrioch/whack/256/Whack-Google-Earth-icon.png">
+  </head>
+
+  <body>
+    <!-- BANNER -->
+    <header>
+        <div class="banner">
+            Immigration Tools & Visa Management
+        </div>
+    </header>
+
+    <!-- BARRA DE NAVEGACION -->
+    <nav class="barra-navegacion">      
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="new_profile.html">New Profile</a></li>
+        <li><a href="cost_estimate.html">Cost Estimation</a></li>
+        <li><a href ="https://www.uscis.gov/working-in-the-united-states" target=”_blank”>USCIS Official Site</a></li>
+      </ul>
+    </nav>
+
+    <h4 class="make-your-selection">Please complete the required information below</h4>
+
+    <!-- COST ESTIMATE TOOL -->
+    <form id="costEstimateForm" name="costEstimateForm">
+      <div class="save-button">
+          <button type="reset" class="btn btn-danger">Reset/Delete All</button>
+          <button type="submit" id="submit" class="btn btn-success" value="register">Save & Submit</button>
+      </div>
+
+      <div class="profile-info" name="profileInfo">
+          <div class="div1" name="div1" >     
+
+            <h4>Travel Expenses & Accommodation</h4><br>       
+            <label for="input-group mb-2" class="form-label">Traveling with Dependents?</label>            
+            <select id="dependentSelector" class="form-select" aria-label="Default select">
+              <option selected="">----- Please Select -----</option>
+              <option value="No">No</option>
+              <option value="Yes">Yes</option>              
+            </select><br>
+
+              <label for="flightTicket" class="form-label">Flight Tickets (Employee + Dependents if apply)</label>
+              <input required type="number" min="0" class="form-control" id="flightTicket" name="flightTicket" placeholder="Please enter the amount in USD">
+          
+              <label for="hotel" class="form-label">Hotel/Accommodation</label>
+              <input required type="number" min="0" class="form-control" id="hotel" name="hotel" placeholder="Please enter the amount in USD">
+          </div>                    
+
+          <div class="div2">
+          <h4>Compensation, PerDiems & Bonus</h4><br>
+
+              <label for="compensation" class="form-label">Annual Compensation in Destination Country</label>
+              <input required type="number" min="0" class="form-control" id="compensation" name="compensation" placeholder="Please enter the amount in USD/Annually">
+      
+              <label for="bonus" class="form-label">Relocation Bonus</label>
+              <input required type="number" min="0" class="form-control" id="bonus" name="bonus" placeholder="Please enter the amount in USD"><br>
+               
+              <!-- CASE NOTES -->
+              <div>
+              <h4 style="color: darkblue;"> Cost Estimate Notes</h4>
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="costEstimateNotes" style="height: 100px"></textarea>
+                  <label for="floatingTextarea">Leave your comments here:</label>
+                </div>
+              </div><br>                          
+          </div>
+      </div>
+  </form>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Immigration & Visa Management Tools | 2022 <br>
+       Version: 1.2 (Bootstrap Actualizado)
+    </p>
+</footer>
+
+    <!-- JS - Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+    <script src="cost_estimate.js"></script>
+  </body>
+</html>

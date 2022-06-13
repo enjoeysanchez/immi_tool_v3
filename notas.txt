@@ -1,0 +1,27 @@
+Buenos días Joel,
+El TPO tiene un exceso de boostrap necesito que solo lo uses en un solo lugar:
+o footer o nav o form o card pero no todo el TPO.
+
+Fecha límite de entrega:30/06/2022 
+
+Saludos y cualquier duda estoy a disposición
+
+--------------------------------------------------
+
+Hola profe!
+
+Gracias por su feedback, comentarios y observaciones.
+
+Le dejo por acá abajo los cambios que hice,
+
+Updates:
+
+Bootstrap eliminado de:
+- NavBar
+- Footers
+- Cards
+- Menu principal
+
+Hecho con Bootstrap:
+- Los formularios en: cost_estimate.html y new_profile.html
+

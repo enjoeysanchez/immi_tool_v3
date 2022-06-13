@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: whitesmoke;
+    min-height: 1000px;
+}
+
+.banner {
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    color: white;
+    background-color: #2e3138;
+    height: 2em;
+}
+
+.make-your-selection {
+    padding-left: 1.5em;
+    padding-top: 0.3em;
+    padding-bottom: 0.5em;
+}
+
+.container-main {
+    margin: 2em;
+}
+
+.btn.btn-info.btn-lg {
+    margin: 0.1em;
+    border: #6990eb solid 2px;
+    background-color: #393a85;
+    color: white;
+    box-shadow:7px 7px 15px 7px rgba(30, 30, 60, 0.27);
+}
+
+.btn.btn-info.btn-lg:hover {
+    cursor: pointer;
+    color: aqua;
+    box-shadow : 2px 2px 0.5px rgb(114, 111, 113);
+    transition: 0.5s;
+}
+
+.form-control {
+    width: 500px;
+}
+
+.form-label {
+    font-weight: bolder;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+
+footer {
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #2e3138;
+    color: white;
+    font-size: medium;
+    padding: 0.2em;
+}
+
+footer p {
+    margin: 0;
+}
+
+.profile-info {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 1em 1.5em 0 1.5em;
+}
+
+.exp-date {
+    border: solid rgb(0, 0, 0) 3px;
+    border-radius: 10px;
+    padding: 0.5em;
+    background-color: #a33232;
+    width: 14em;
+    margin-top: 0.5em;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.save-button {
+    text-align: right;
+    margin-top: 1em;
+    margin-right: 1.5em;
+}
+
+.profile-info h4 {
+    margin-bottom: 0;
+    color: rgb(16, 16, 165);
+    font-weight: lighter;
+    font-size: 1.7em;
+}
+
+#cost-estimation {
+    margin-left: 3em;
+}
+
+#dependentSelector {
+    width: 250px;
+}
+
+#menu-main-grid-cards {
+    margin-left: 2em;
+    margin-top: 1em;
+}
+
+#menu-main-grid-cards-2 {
+    margin-right: 1em;
+    display: inline-flexbox;
+}
+
+.card-img-top {
+    width: 290px;
+    height: 290px;
+    margin: auto;
+    padding: 1em;
+}
+
+.foto-tarjeta {
+    width: 290px;
+    height: 240px;
+    margin: auto 1.5em;
+}
+
+/* MAIN MENU */
+.flex-container {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: normal;
+  align-items: stretch;
+  align-content: center;
+  margin-left: 2em;
+}
+
+.flex-items:nth-child(1) {
+  display: block;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(2) {
+  display: block;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(3) {
+  display: block;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:nth-child(4) {
+  display: block;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-self: auto;
+  order: 0;
+}
+
+.flex-items:hover {
+    cursor: pointer;
+    background-color: rgb(188, 188, 238);
+    transform: scale(1.045);
+    transition: 0.3s;
+}
+
+.flex-items {
+    background-color: rgb(139, 228, 228);
+    color: rgb(0, 0, 0);
+    font-size: small;
+    text-align: center;
+    padding: 0;
+    align-self: auto;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0.5em;
+    margin: 10px;
+    box-shadow:
+  2.5px 3px 1.3px rgba(0, 0, 0, 0.056),
+  6.1px 7.2px 4.4px rgba(0, 0, 0, 0.081),
+  11.5px 13.5px 10.5px rgba(0, 0, 0, 0.1),
+  20.5px 24.1px 22.1px rgba(0, 0, 0, 0.119),
+  38.4px 45.1px 45.5px rgba(0, 0, 0, 0.144),
+  92px 108px 112px rgba(0, 0, 0, 0.2);
+}
+
+.titulo {
+    margin: 0;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    background-color: #2e313893;
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+
+/* BARRA DE NAVEGACION */
+.barra-navegacion {
+	background: rgb(34, 33, 33);
+	color: #FFF;
+	height: 50px;
+	padding-left: 18px;
+	border-radius: 0px;
+    text-decoration: none;
+}
+.barra-navegacion ul, .barra-navegacion li {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none
+}
+.barra-navegacion ul {
+	width: 100%;
+}
+.barra-navegacion li {
+	float: left;
+	display: inline;
+	position: relative;
+}
+.barra-navegacion a {
+	display: block;
+	line-height: 50px;
+	padding: 0 14px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+.barra-navegacion li a:hover {
+	color: black;
+    font-size: 1.2em;
+	background: whitesmoke;
+    transition: 0.5s;
+}
