@@ -19,7 +19,8 @@ body {
     padding-right: 0.7em;
     color: white;
     background-color: #2e3138;
-    height: 2em;
+    min-height: 2em;
+    min-width: 550px;
 }
 
 .make-your-selection {
@@ -221,6 +222,7 @@ footer p {
 	background: rgb(34, 33, 33);
 	color: #FFF;
 	height: 50px;
+    min-width: 550px;
 	padding-left: 18px;
 	border-radius: 0px;
     text-decoration: none;
