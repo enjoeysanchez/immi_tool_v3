@@ -8,12 +8,6 @@ Saludos y cualquier duda estoy a disposición
 
 --------------------------------------------------
 
-Hola profe!
-
-Gracias por su feedback, comentarios y observaciones.
-
-Le dejo por acá abajo los cambios que hice,
-
 Updates:
 
 Bootstrap eliminado de:
