@@ -21,9 +21,10 @@ Bootstrap eliminado de:
 - Footers
 - Cards
 - Menu principal
-- Coloqué los nombres de las "class" en español para diferenciarlos del resto del formato y elementos que tomaba bootstrap en la primera version del TPO.
+
+Coloqué los nombres de las "class" en español para diferenciarlos del resto del formato y elementos que tomaba bootstrap en la primera version del TPO.
 Sé que no es consistente con el código, pero lo hice solo para separarlo de los que antes estaban vinculados al framework.
 
 Hecho con Bootstrap:
-- Los formularios en: cost_estimate.html y new_profile.html
+- Solamente los formularios en: cost_estimate.html y new_profile.html
 

@@ -20,7 +20,7 @@ body {
     color: white;
     background-color: #2e3138;
     min-height: 2em;
-    min-width: 550px;
+    min-width: 900px;
 }
 
 .titulo-pagina {
@@ -49,7 +49,11 @@ body {
 }
 
 .form-control {
-    width: 500px;
+    width: 400px; 
+}
+
+.form-select {
+    width: 400px;
 }
 
 .form-label {
@@ -76,7 +80,7 @@ footer p {
 .profile-info {
     display: inline-flex;
     justify-content: space-evenly;
-    width: 100%;
+    min-width: 100%;
     padding: 1em 1.5em 0 1.5em;
 }
 
@@ -113,26 +117,9 @@ footer p {
     width: 250px;
 }
 
-#menu-main-grid-cards {
-    margin-left: 2em;
-    margin-top: 1em;
-}
-
-#menu-main-grid-cards-2 {
-    margin-right: 1em;
-    display: inline-flexbox;
-}
-
-.card-img-top {
-    width: 290px;
-    height: 290px;
-    margin: auto;
-    padding: 1em;
-}
-
 .foto-tarjeta {
-    width: 290px;
-    height: 240px;
+    width: 250px;
+    height: 250px;
     margin: auto 1.5em;
 }
 
@@ -159,13 +146,13 @@ footer p {
 
 .flex-item:hover {
     cursor: pointer;
-    background-color: rgba(188, 188, 238, 0.719);
+    background-color: rgba(96, 129, 201, 0.719);
     transform: scale(1.045);
     transition: 0.3s;
 }
 
 .flex-item {
-    background-color: rgba(114, 230, 230, 0.315);
+    background-color: rgba(80, 156, 156, 0.315);
     color: rgb(0, 0, 0);
     font-size: small;
     text-align: center;
@@ -187,7 +174,7 @@ footer p {
     margin: 0;
     padding: 0.5em;
     margin-bottom: 0.5em;
-    background-color: #2e313893;
+    background-color: #2e3138c0;
     color: white;
     text-decoration: none;
     font-weight: lighter;
@@ -204,7 +191,7 @@ a {
 	background: rgb(34, 33, 33);
 	color: #FFF;
 	height: 50px;
-    min-width: 550px;
+    min-width: 900px;
 	padding-left: 18px;
 	border-radius: 0px;
     text-decoration: none;
@@ -236,4 +223,57 @@ a {
     font-size: 1.2em;
 	background: whitesmoke;
     transition: 0.5s;
+}
+
+/* BARRA DE NAVEGACION PRINCIPAL */
+.barra-navegacion1 {
+	background: rgb(34, 33, 33);
+	color: #FFF;
+	height: 50px;
+    min-width: 570px;
+	padding-left: 18px;
+	border-radius: 0px;
+    text-decoration: none;
+}
+.barra-navegacion1 ul, .barra-navegacion1 li {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none
+}
+.barra-navegacion1 ul {
+	width: 100%;
+}
+.barra-navegacion1 li {
+	float: left;
+	display: inline;
+	position: relative;
+}
+.barra-navegacion1 a {
+	display: block;
+	line-height: 50px;
+	padding: 0 14px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+.barra-navegacion1 li a:hover {
+	color: black;
+    font-size: 1.2em;
+	background: whitesmoke;
+    transition: 0.5s;
+}
+
+.banner1 {
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    color: white;
+    background-color: #2e3138;
+    min-height: 2em;
+    min-width: 570px;
 }
