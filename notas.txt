@@ -22,3 +22,21 @@ Sé que no es consistente con el código, pero lo hice solo para separarlo de lo
 Hecho con Bootstrap:
 - Solamente los formularios en: cost_estimate.html y new_profile.html
 
+
+--------------------------------------------------------------------------------------
+NUEVA DEVOLUCIÓN
+
+Buenas tardes Joel,
+Lo revise pero aun así no llegamos al 60%
+al tener dos paginas con formularios hechos con bootstrap (es como si fuera una porque son casi iguales)
+
+agrega iconos, (Iconos agragados en contact.html usando fontawesome)
+algún iframe, (AGREGADO UN GOOGLE MAP EMBEDDED EN INDEX.HTML)
+MQ
+validación que funcione (validacion con javascript en todas las celdas del formulario)
+
+para poder llegar a cerrar la nota.
+
+Por otro lado de la primera pagina elimina los enlaces de Bootstrap. (ELIMINADOS)
+
+Saludos 

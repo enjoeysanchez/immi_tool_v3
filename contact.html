@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS & FontAwesome-->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/758fa077b6.js" crossorigin="anonymous"></script>
+
+    <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="https://icons.iconarchive.com/icons/arrioch/whack/256/Whack-Google-Earth-icon.png">
+</head>
+
+<body>
+
+    <!-- BANNER -->
+    <header>
+        <div class="banner1">
+            Immigration & Visa Management Tools - Contact Page
+        </div>
+    </header>
+
+    <a href="index.html"><button class="return-button">Return   <i class="fa-solid fa-arrow-rotate-left"></i></button></a>    
+    
+        <form id="contactform" class="contact-form" name="contactform">
+            <h3 class="contact-us">Contact us   <i class="fa-regular fa-comments"></i></h3>
+            <div>
+                <label for="name" class="label-contact">Your Name</label>
+                <div>                    
+                    <input type="text" id="name" name="name" class="contact-form-field">
+                </div>
+            </div>
+
+            <div class="contact-form-group">
+                <label for="email" class="label-contact">ID Number</label>
+                <div>
+                    <input type="number" id="idnumber" name="idnumber" class="contact-form-field">
+                </div>
+            </div>
+
+            <div class="contact-form-group">
+                <label for="email" class="label-contact">Your e-Mail address</label>
+                <div>
+                    <input type="email" id="email" name="email" class="contact-form-field" required>
+                </div>
+            </div>            
+    
+            <div class="contact-form-group">
+                <label for="message" class="label-contact">Your Message</label>
+                <div>
+                    <textarea id="message" name="message" class="contact-form-field2" rows="6" maxlength="3000"></textarea>
+                </div>
+            </div>
+    
+            <div class="contact-form-submit">
+                <button type="submit" id="submit" name="sendButton" class="contact-form-submit" value="submit"
+                onclick="validateSubmit()" >Send Message <i class="fa-solid fa-share"></i></button>
+            </div>
+    
+        </form>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <p>Immigration & Visa Management Tools | 2022 <br>
+           Version: 1.3
+        </p>
+    </footer>
+
+    <script src="contact.js"></script> 
+</body>
+</html>

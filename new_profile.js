@@ -2,7 +2,7 @@
 const formProfile = document.getElementById("formProfile")
 
 formProfile.addEventListener("submit", function(event) {
-    event.preventDefault()  //Prevent AutoSubmitting the form
+    event.preventDefault()
 
     var fullName = document.getElementById("fullName").value
     console.log("Full Name:", fullName);
